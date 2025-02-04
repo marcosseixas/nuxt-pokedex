@@ -1,6 +1,6 @@
 <template>
     <div>
         <Alert message="teste de mensagem"/>
-        index
+        Index
     </div>
 </template>
