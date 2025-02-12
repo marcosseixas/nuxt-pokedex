@@ -1,5 +1,9 @@
 <template>
     <div>
-        Pokemon ID: {{ $route.params.ID }}
+        Pokemon ID: {{ params.ID }}
     </div>
 </template>
+
+<script setup lang="ts">
+    const{params} = toRefs(useRoute());
+</script>
